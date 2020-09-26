@@ -1,0 +1,58 @@
+.videoCard{
+	width: 500px;
+	height: 400px;
+    max-height: 400px;
+	padding: 20px;
+	cursor: pointer;
+	transition: transform .1s;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	margin-right: 40px;
+	margin-bottom: 55px;
+    transition: transform 0.3s linear;
+}
+
+
+.videoCard:hover{
+    transform: scale(1.08);
+    /*margin-bottom: 70px; */
+}
+
+
+.videoCard > img{
+	height: 300px;
+    max-height: 300px;
+	width: 500px;
+	object-fit: contain;
+}
+
+
+.videoCard__stats{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+.videoCard__stats > *{
+	margin-right: 10px;
+}
+
+
+.videoCard__stats{
+	display: none;
+}
+
+.videoCard:hover .videoCard__stats{
+	display: flex;
+}
+
+
+
+
+
+
+
+

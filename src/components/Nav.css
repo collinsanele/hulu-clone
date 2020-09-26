@@ -1,0 +1,19 @@
+.nav{
+	color: white;
+	display: flex;
+	padding: 10px 10px 10px 40px;
+}
+
+.nav > h2{
+	opacity: 0.7;
+	margin: 0 30px;
+	transition: transform 50ms;
+	cursor: pointer;
+}
+
+
+.nav > h2:hover{
+	transform: scale(1.2);
+	opacity: 1;
+}
+
